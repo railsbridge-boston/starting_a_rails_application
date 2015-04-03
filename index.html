@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="css/reset.css" rel="stylesheet" type="text/css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=1024">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="shortcut icon" href="css/favicon.png">
+  <link rel="apple-touch-icon" href="css/apple-touch-icon.png"><!-- Code Prettifier: -->
+  <link href="css/highlight.css" type="text/css" rel="stylesheet">
+  <script type="text/javascript" src="js/highlight.pack.js">
+  </script>
+  <script type="text/javascript">
+  hljs.initHighlightingOnLoad();
+  </script>
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,800italic,300,400,800' rel='stylesheet' type='text/css'>
+  <title></title>
+</head>
+<body>
+  <div class="fallback-message">
+    <p>
+      Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.
+    </p>
+    <p>
+      For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.
+    </p>
+  </div>
+  <div id="impress">
+
+    <div class='step'>
+      <h1>
+        Starting a Rails Application
+      </h1>
+      <ul>
+        <li>Presented by Julissa Jansen | @JulissaJM
+        </li>
+        <li>Slide Deck by Andrew Kuklewicz | @kookster
+        </li>
+      </ul>
+    </div>
+
+    <div class='step'>
+      <h2>
+        The Plan
+      </h2>
+      <h1>
+        Generate scaffolding<br/>Run on a local server
+      </h1>
+    </div>
+
+    <div class='step' data-x="0" data-y="0" data-scale="4">
+      <p>
+        <img src="images/wat.jpg"></img>
+      </p>
+    </div>
+
+    <div class='step'>
+      <h2>Framework</h2>
+      <h1>Reusable Code</h1>
+      <h1>Generates Code</h1>
+      <h1>Tools</h1>
+    </div>
+
+    <div class='step'>
+      <h2>Big Idea</h2>
+      <h1>DRY: Don't Repeat Yourself</h1>
+      <h1 class="delayed">DRY: Don't Repeat Yourself</h1>
+    </div>
+
+    <div class='step'>
+      <h2>Big Idea</h2>
+      <h1><span class="scale-up">convention</span><div>&gt;</div><span class="scale-down">configuration</span></h1>
+    </div>
+
+    <div class='step'>
+      <h2>Big Idea</h2>
+      <h1 class="stroke">Open Source</h1>
+      <h2>2,297 contibuters</h2>
+    </div>
+
+    <div class='step'>
+      <h2>Big Idea</h2>
+      <h1>Running <em>(Tested)</em> Code</h1>
+    </div>
+
+    <div class='step'>
+      <h1>Generate</h1>
+      <pre><code class='bash inline prettyprint'>rails new suggestotron</code></pre>
+        <ul class="dir-tree">
+          <li>app/
+            <ul>
+              <li>models/<li>
+              <li>views/<li>
+              <li>controllers/<li>
+            </ul>
+          </li>
+          <li>config/
+            <ul>
+              <li>environments/<li>
+            </ul>
+          </li>
+          <li>db/
+            <ul>
+              <li>migrate/<li>
+            </ul>
+          </li>
+          <li>public/
+            <ul>
+              <li>css/<li>
+              <li>js/<li>
+            </ul>
+          </li>
+          <li>tests/</li>
+        </ul>
+      </code>
+    </div>
+
+
+    <div class='step'>
+      <h1>
+        Run!
+      </h1>
+      <img src="images/sagal500.jpg" style="width:80%"></img>
+      <p style="font-size:16px"><em>Peter Sagal http://www.runnersworld.com/runners-stories/time-of-the-ancient-marathoner</em></p>
+    </div>
+
+
+    <div class='step'>
+      <h1>
+        Run!
+      </h1>
+
+      <div>Install needed libraries in <code>GemFile</code>
+        <pre><code class='bash inline prettyprint'>bundle</code></pre>
+      </div>
+
+      <br/>
+        
+      <div>Start up a webserver
+        <pre><code class='bash inline prettyprint'>rails server</code></pre>
+      </div>
+
+      <br/>
+
+      <h2>Edit, save, refresh!</h2>
+
+    </div>
+
+
+    <div class='step'>
+      <h2>
+        do it
+      </h2>
+      <pre><code class="bash"># Generate
+rails new suggestotron
+
+
+# Run
+bundle
+rails server
+</code></pre>
+    </div>
+    <div class='step'>
+      <h1>Questions?</h1>
+    </div>
+    <script src="js/impress.js" type="text/javascript">
+      </script> <script type="text/javascript">
+      impress().init();
+      </script>
+    </div>
+  </body>
+  </html>
